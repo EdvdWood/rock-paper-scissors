@@ -1,0 +1,50 @@
+.wrapper {
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.buttonHolder {
+    display: inline-block;
+}
+
+p.playerWin {
+    color: green;
+    font-weight: bold;
+}
+
+html.playerWin {
+    background-color: rgb(48, 190, 48);
+}
+
+p.computerWin {
+    color: rgb(155, 4, 4);
+    font-weight: bold;
+}
+
+html.computerWin {
+    background-color: rgba(253, 33, 33, 0.993);
+}
+
+.resetButton {
+    width: 220px;
+    margin-left: -3px;
+}
+
+.invisible {
+    display: none;
+}
+
+button {
+    width: 70px
+}
+
+.big {
+    color: black !important;
+    font-weight: bolder;
+    font-size: 30px;
+}
